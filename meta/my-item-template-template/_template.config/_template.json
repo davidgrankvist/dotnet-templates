@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Me",
+    "classifications": [ "Common", "Code" ],
+    "identity": "MyTemplates.Custom.ItemTemplate",
+    "name": "My templates: Custom item template",
+    "shortName": "mycustomitem",
+    "tags": {
+      "language": "C#",
+      "type": "item"
+    }
+}
