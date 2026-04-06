@@ -1,12 +1,23 @@
 {
-    "$schema": "http://json.schemastore.org/template",
-    "author": "Me",
-    "classifications": [ "Common", "Code" ],
-    "identity": "MyTemplates.Meta.ItemTemplateTemplate",
-    "name": "My templates: Item template template",
-    "shortName": "myitemtt",
-    "tags": {
-      "language": "C#",
-      "type": "item"
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Me",
+  "classifications": [
+    "Common",
+    "Code"
+  ],
+  "identity": "MyTemplates.Meta.ItemTemplateTemplate",
+  "name": "My templates: Item template template",
+  "shortName": "myitemtt",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "sources": [
+    {
+      "rename": {
+        "_template.config": ".template.config",
+        "_template.config/_template.json": ".template.config/template.json"
+      }
     }
+  ]
 }
